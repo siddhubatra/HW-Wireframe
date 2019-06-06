@@ -4,22 +4,45 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
+    margin: auto;
 }
 
-.graySpaces {
+header, nav, section, aside, footer {
     background: #ebebeb;
+    padding: 25px;
+    margin: 10px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    padding: 10px;
 }
 
-.littleText {
+h1, p {
     color: #777;
     background: #ebebeb;
+    padding: 10px;
+    margin: 5px;
 }
 
 section {
-    width: 495px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0; 
+    padding-bottom: 30px;
+}
+
+aside {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 170px;
+    margin-right: 0;
+}
+
+div {
+    
 }
